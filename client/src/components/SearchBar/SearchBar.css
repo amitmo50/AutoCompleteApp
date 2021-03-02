@@ -1,0 +1,30 @@
+.list-container {
+    list-style-type: none;
+    overflow-y:auto;
+    height: 500px;
+    max-height: 500px;
+    padding: 0;
+}
+
+.input-bar {
+    width: 300px;
+    color: black;
+}
+
+.header {
+    font-size: calc(30px + 2vmin);
+    font-family: 'Lobster', cursive;
+    background: -webkit-linear-gradient(#eee, blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.items {
+    cursor: pointer;
+    font-family: 'Lobster', cursive;
+}
+.auto-complete-container {
+    padding: 10px;
+    border: black 2px solid;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
